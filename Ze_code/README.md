@@ -39,5 +39,5 @@ No SQL, o usuario pode executar alguns comandos para ter uma leitura melhor do b
 
 1. Unir cada parceiro à sua respectiva coverageArea
   ```
-  SELECT Pdvs.trading, CoverageArea.type, CoverageArea.coordinates FROM Pdvs RIGHT JOIN CoverageArea ON Pdvs.id = CoverageArea.id WHERE Pdvs.id = 12;
+  SELECT Pdvs.trading, CoverageArea.type, CoverageArea.coordinates FROM Pdvs RIGHT JOIN CoverageArea ON Pdvs.id = CoverageArea.id WHERE Pdvs.id = [escolha_id];
   ```
