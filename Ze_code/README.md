@@ -21,7 +21,7 @@ O banco de dados do projeto tem como objetivo organizar em tabelas as inforamaç
 <img src="relacionamento.png">
 <p> Representação ER do projeto no formato das tabelas </p>
 
-**Tabelas:**
+**Tabelas:** <br>
 As tabelas do banco de dados se encontram [aqui](BDs)
 
 pdvs.csv -> tabela bruta que é a versão convertida do JSON direto em csv. As próximas tabelas foram criadas derivadas dessa para criar as entidades do banco de dados.
