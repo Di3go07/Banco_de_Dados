@@ -15,7 +15,7 @@ O banco de dados do projeto tem como objetivo organizar em tabelas as inforamaç
 
 <br>
 <img src="Diagrama.jpg">
-<p aling='center'> Diagrama que representa as relações entre as entidades no banco </p>
+<p align="center"> Diagrama que representa as relações entre as entidades no banco </p>
 
 <br>
 <img src="relacionamento.png">
