@@ -11,7 +11,7 @@ O projeto apresentando consiste na organização desses parceiros e construção
 
 O banco de dados do projeto tem como objetivo organizar em tabelas as inforamações dos parceiros neste arquivo [JSON](pdvs.json)
 
-**Modelo Entidade Relacionamento:**
+**MODELO ENTIDADE RELACIONAMENTO:**
 
 <br>
 <img src="Diagrama.jpg">
@@ -21,7 +21,7 @@ O banco de dados do projeto tem como objetivo organizar em tabelas as inforamaç
 <img src="relacionamento.png">
 <p> Representação ER do projeto no formato das tabelas </p>
 
-**Tabelas:** <br>
+**TABELAS:** <br>
 
 pdvs.csv → tabela bruta que é a versão convertida do JSON direto em csv. As próximas tabelas foram criadas derivadas dessa para criar as entidades do banco de dados.
 
