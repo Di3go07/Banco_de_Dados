@@ -34,6 +34,7 @@ As tabelas do banco de dados se encontram [aqui](BDs)
 
 **Extra:** a pasta 'Popular_bancos' dentro do diretorio 'BDs' possui os codigos python desenvolvidos para manipular a tabela pdvs.csv e popular as entidades do banco de dados
 
+
 **MANIPULAR BANCO:** <br>
 
 No SQL, o usuario pode executar alguns comandos para ter uma leitura melhor do banco de dados e suas relações
