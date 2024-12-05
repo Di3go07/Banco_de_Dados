@@ -11,7 +11,7 @@ O projeto apresentando consiste na organização desses parceiros e construção
 
 O banco de dados do projeto tem como objetivo organizar em tabelas as informações dos parceiros neste arquivo [JSON](pdvs.json)
 
-**MODELO ENTIDADE RELACIONAMENTO:**
+**MODELO ENTIDADE RELACIONAMENTO**
 
 <br>
 <img src="Diagrama.jpg">
@@ -22,7 +22,9 @@ O banco de dados do projeto tem como objetivo organizar em tabelas as informaç�
 <p align="center"> Representação ER do projeto no formato das tabelas </p>
 <br>
 
-**TABELAS:** <br>
+**TABELAS** <br>
+
+Apresentação das tabelas presentes no banco de dados
 
 pdvs.csv → tabela bruta que é a versão convertida do JSON direto em csv. As próximas tabelas foram criadas derivadas dessa para criar as entidades do banco de dados.
 
@@ -35,7 +37,7 @@ CoverageAreas.csv → as informações seguem o padrão `GeoJSON MultiPolygon` p
 As tabelas do banco de dados se encontram [aqui](BDs)
 <br>
 
-**MANIPULAR BANCO:** 
+**MANIPULAR BANCO** 
 
 No SQL, o usuario pode executar alguns comandos para ter uma leitura melhor do banco de dados e suas relações
 
