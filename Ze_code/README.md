@@ -11,6 +11,8 @@ O projeto apresentando consiste na organização desses parceiros e construção
 
 O banco de dados do projeto tem como objetivo organizar em tabelas as inforamações dos parceiros neste arquivo [JSON](pdvs.json)
 
+As tabelas do banco de dados se encontram [aqui](BDs)
+
 **Modelo Entidade Relacionamento:**
 
 <br>
