@@ -23,4 +23,4 @@ O banco de dados do projeto tem como objetivo organizar em tabelas as inforamaç
 
 **Tabelas:**
 
-CoverageAreas.csv -> as informações seguem o padrão `GeoJSON MultiPolygon` para desenhar a area de atuação de cada parceiro. No JSON, essa tabela engloba os campos `coverageArea` e `type` para cada um dos clientes, representados pelo <sub> id </sub>	.
+CoverageAreas.csv -> as informações seguem o padrão `GeoJSON MultiPolygon` para desenhar a area de atuação de cada parceiro. No JSON, essa tabela engloba os campos `coverageArea` e `type` para cada um dos clientes, representados pelo <ins> id </ins>	.
