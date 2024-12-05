@@ -47,3 +47,8 @@ No SQL, o usuario pode executar alguns comandos para ter uma leitura melhor do b
   ON Pdvs.id = CoverageArea.id
   WHERE Pdvs.id = [escolha_id];
   ```
+
+# 👨‍💻 Desenvolvedor
+
+Diego Penna Andrade Barros <br>
+PDITA 274
