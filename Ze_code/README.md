@@ -37,7 +37,7 @@ As tabelas do banco de dados se encontram [aqui](BDs)
 **MANIPULAR BANCO:**
 No SQL, o usuario pode executar alguns comandos para ter uma leitura melhor do banco de dados e suas relações
 
-- Unir cada parceiro à sua respectiva coverageArea
+1. Unir cada parceiro à sua respectiva coverageArea
   ```
   SELECT Pdvs.trading, CoverageArea.type, CoverageArea.coordinates
   FROM Pdvs
