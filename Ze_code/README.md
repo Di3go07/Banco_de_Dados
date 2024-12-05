@@ -38,6 +38,7 @@ As tabelas do banco de dados se encontram [aqui](BDs)
 No SQL, o usuario pode executar alguns comandos para ter uma leitura melhor do banco de dados e suas relações
 
 1. Unir cada parceiro à sua respectiva coverageArea
+ -
   ```
   SELECT Pdvs.trading, CoverageArea.type, CoverageArea.coordinates
   FROM Pdvs
