@@ -13,6 +13,6 @@ O banco de dados do projeto tem como objetivo organizar em tabelas as inforamaç
 
 <img src="Diagrama.jpg">
 Diagrama que representa as relações entre as entidades no banco
-
+<br>
 <img src="relacionamento.png">
 Representação do ER do projeto no formato das tabelas
