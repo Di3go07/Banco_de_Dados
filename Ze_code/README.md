@@ -33,7 +33,7 @@ CoverageAreas.csv → as informações seguem o padrão `GeoJSON MultiPolygon` p
 As tabelas do banco de dados se encontram [aqui](BDs)
 
 **Extra:** a pasta 'Popular_bancos' dentro do diretorio 'BDs' possui os codigos python desenvolvidos para manipular a tabela pdvs.csv e popular as entidades do banco de dados
-
+<br>
 
 **MANIPULAR BANCO:** 
 
