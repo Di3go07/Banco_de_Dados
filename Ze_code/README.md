@@ -23,11 +23,11 @@ O banco de dados do projeto tem como objetivo organizar em tabelas as inforamaç
 
 **Tabelas:** <br>
 
-pdvs.csv -> tabela bruta que é a versão convertida do JSON direto em csv. As próximas tabelas foram criadas derivadas dessa para criar as entidades do banco de dados.
+pdvs.csv → tabela bruta que é a versão convertida do JSON direto em csv. As próximas tabelas foram criadas derivadas dessa para criar as entidades do banco de dados.
 
-Parceiros.csv -> armazena as informações principais de cada parceiro do Zé Deliver. No JSON, essa tabela engloba os campos `tradingName`, `ownerName` e `document`
+Parceiros.csv → armazena as informações principais de cada parceiro do Zé Deliver. No JSON, essa tabela engloba os campos `tradingName`, `ownerName` e `document`
 
-CoverageAreas.csv -> as informações seguem o padrão `GeoJSON MultiPolygon` para desenhar a area de atuação de cada parceiro. No JSON, essa tabela engloba os campos `coverageArea` e `type` para cada um dos clientes, representados pelo <ins> id </ins>	
+CoverageAreas.csv → as informações seguem o padrão `GeoJSON MultiPolygon` para desenhar a area de atuação de cada parceiro. No JSON, essa tabela engloba os campos `coverageArea` e `type` para cada um dos clientes, representados pelo <ins> id </ins>	
 
 As tabelas do banco de dados se encontram [aqui](BDs)
 
