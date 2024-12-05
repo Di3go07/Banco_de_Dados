@@ -20,6 +20,7 @@ O banco de dados do projeto tem como objetivo organizar em tabelas as inforamaç
 <br>
 <img src="relacionamento.png">
 <p> Representação ER do projeto no formato das tabelas </p>
+<br>
 
 **TABELAS:** <br>
 
