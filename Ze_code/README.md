@@ -33,7 +33,7 @@ Apresentação das tabelas presentes no banco de dados
 - CoverageAreas.csv → as informações seguem o padrão `GeoJSON MultiPolygon` para desenhar a area de atuação de cada parceiro. No JSON, essa tabela engloba os campos `coverageArea` e `type` para cada um 
 dos clientes, representados pelo <ins> id </ins>	
 
-**Extra:** a pasta 'Popular_bancos' dentro do diretorio 'BDs' possui os codigos python desenvolvidos para manipular a tabela pdvs.csv e popular as entidades do banco de dados
+**Extra:** a pasta 'Popular_bancos' dentro do diretorio 'BDs' possui os codigos python desenvolvidos para manipular a tabela pdvs.csv e popular as tabelas/entidades do banco de dados
 
 As tabelas do banco de dados se encontram [aqui](BDs)
 <br>
