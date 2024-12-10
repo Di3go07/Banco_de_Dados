@@ -50,8 +50,10 @@ No SQL, o usuario pode executar alguns comandos para ter uma leitura melhor do b
   ON Pdvs.id = CoverageArea.id
   WHERE Pdvs.id = [escolha_id];
   ```
+## 🌐 Site
+O site do Zé Code te permite adicionar o id de um parceiro e encontrar sua coverageArea no google Maps
 
-# 👨‍💻 Desenvolvedor
+## 👨‍💻 Desenvolvedor
 
 Diego Penna Andrade Barros <br>
 PDITA 274
