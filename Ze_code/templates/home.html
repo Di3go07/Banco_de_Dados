@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Simple Polygon</title>
+
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <h1> Zé Code </h1>
+    <section id="inputArea">
+      <label for="campo_id">Id do parceiro:</label><br>
+      <input type="number" id="campo_id" name="partner_id" placeholder="Digite o id de um parceiro">
+      <button id="buscaPartner" onclick="minhaFuncao()"> Buscar </button> 
+    </section>
+    <div id="map"></div>
+
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbH_QUQ6eM2g28STHdovVYotuEPDyjD7A&callback=initMap&v=weekly"
+    defer
+    ></script>
+    <script src="/scripts/index.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,22 @@
+html {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+
+#campo_id{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  height: 30px;
+}
+
+#map {
+  height: 40%;
+  width: 40%;
+}
+  
