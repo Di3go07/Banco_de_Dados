@@ -54,7 +54,7 @@ No SQL, o usuario pode executar alguns comandos para ter uma leitura melhor do b
 
 O site do Zé Code te permite adicionar o id de um parceiro e encontrar sua coverageArea no Google Maps.
 
-Na construção desse sistema do site foi necessário um arquivo javascript que interpreta as informações de coordenada de cada parceiro a partir do arquivo json com todas as informações. Após manipular esses dados, as informações, salvas em um dicionário, são lidas pela API do Google Maps para criar o poligono com sua localização geografica no mapa. O codigo se encontra [aqui](scripts/index.js).
+Na construção desse sistema do site foi necessário um arquivo javascript que interpreta as informações de coordenada de cada parceiro a partir do arquivo json com todas as informações. Após manipular esses dados, as informações, salvas em uma lista de dicionários, são lidas pela API do Google Maps para criar o poligono com sua localização geografica no mapa. O codigo se encontra [aqui](scripts/index.js).
 
 Para visitar o site basta acessar o [arquivo html](templates/home.html) e abri-lo em seu navegador. 
 
