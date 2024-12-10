@@ -51,7 +51,10 @@ No SQL, o usuario pode executar alguns comandos para ter uma leitura melhor do b
   WHERE Pdvs.id = [escolha_id];
   ```
 ## 🌐 Site
-O site do Zé Code te permite adicionar o id de um parceiro e encontrar sua coverageArea no google Maps
+
+O site do Zé Code te permite adicionar o id de um parceiro e encontrar sua coverageArea no Google Maps.
+
+Na construção desse sistema do site foi necessário um arquivo javascript que interpreta as informações de coordenada de cada parceiro a partir do arquivo json com todas as informações. Após manipular esses dados, as informações, salvas em um dicionário, são lidas pela API do Google Maps para criar o poligono com sua localização geografica no mapa. O codigo se encontra [aqui](scripts/index.js) 
 
 ## 👨‍💻 Desenvolvedor
 
