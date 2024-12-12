@@ -20,3 +20,37 @@ h1 {
   width: 40%;
 }
   
+@media screen and (max-width: 1300px) {
+
+  h1 {
+      font-size: 50px;
+    }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  #campo_id{
+    width: 60%;
+    height: 50px;
+    font-size: 20px;
+  }
+
+   #buscaPartner {
+    font-size: 30px;
+    width: 30%;
+  }
+
+  #texto_campo{
+    font-size: 30px;
+  }
+
+  #map {
+    height: 40%;
+    width: 80%;
+  }
+
+}
+
