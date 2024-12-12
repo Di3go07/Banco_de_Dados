@@ -2,8 +2,8 @@ function minhaFuncao() {
   const id_partner = document.getElementById('campo_id').value;
   console.log(id_partner);
 
-  if (id_partner > 51) {
-    alert('Escolha valores entre 0 e 51');
+  if (id_partner >= 51) {
+    alert('Escolha valores entre 0 e 50');
     document.getElementById('campo_id').value = '';
   } else {
     async function filtrarCords()  {
@@ -16,8 +16,8 @@ function minhaFuncao() {
       const partner_cordenadas =  [];
 
       for (let i = 0; i < coords_len; i++)  { //itera sobre cada coordenada de um parceiro, as separando
-        eixo_x = dados_formatados.pdvs[id_partner]['coverageArea']['coordinates'][0][0][i][0]; //resgatar valor de uma coverageArea
-        eixo_y = dados_formatados.pdvs[id_partner]['coverageArea']['coordinates'][0][0][i][1];
+        eixo_x = dados_formatados.pdvs[id_partner]['coverageArea']['coordinates'][0][0][i][1]; //resgatar valor de uma coverageArea
+        eixo_y = dados_formatados.pdvs[id_partner]['coverageArea']['coordinates'][0][0][i][0];
                   //dados_formatados[id_partner]['coverageArea']['coordinates'][0][0][coordenada][eixo(0,1)]
       partner_cordenadas.push({ lat: eixo_x, lng: eixo_y});
       }
