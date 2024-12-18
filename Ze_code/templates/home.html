@@ -1,17 +1,40 @@
 <html>
   <head>
-    <title>Simple Polygon</title>
+    <title> Parceiros </title>
 
     <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="https://unpkg.com/@turf/turf/turf.min.js"></script>
+
   </head>
   <body>
-    <h1> Zé Code </h1>
-    <section id="inputArea">
-      <label for="campo_id">Id do parceiro:</label><br>
-      <input type="number" id="campo_id" name="partner_id" placeholder="Digite o id de um parceiro">
-      <button id="buscaPartner" onclick="minhaFuncao()"> Buscar </button> 
-    </section>
-    <div id="map"></div>
+    <h1> ZÉ CODE </h1>
+    <h2> Encontre o melhor parceiro para fazer sua entrega </h2>
+    <main>
+      <fieldset>
+        <legend>Selecione uma opção:</legend>
+      
+        <div>
+          <input type="radio" id="idPartner" onclick="opcaoSelecionada()" name="drone" value="idPartner" checked="checked" />
+          <label for="idPartner"> Id </label>
+        </div>
+      
+        <div>
+          <input type="radio" id="coordenada" onclick="opcaoSelecionada()" name="drone" value="coordenada" />
+          <label for="coordenada">Coordenadas </label>
+        </div>
+      </fieldset>
+
+      <section id="inputArea">
+        <label for="campo_id" id="texto_campo">Id do parceiro:</label>
+        <div id="button_campo">
+          <input type="text" id="campo_id" name="partner_id" placeholder="Digite o id de um parceiro">
+          <button id="buscaPartner"> Buscar </button> 
+        </div>  
+      </section>
+
+      <div id="map"></div>
+    </main>
+
 
     <script
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbH_QUQ6eM2g28STHdovVYotuEPDyjD7A&callback=initMap&v=weekly"
