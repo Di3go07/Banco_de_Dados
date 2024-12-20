@@ -75,7 +75,7 @@ O codigo se encontra [aqui](scripts/index.js). Já para visitar o site, basta ac
 <br>
 
 <div align="center">
-  <img src="./Imagens/Coordenadas.gif">
+  <img src="./Imagens/Coordenadas.gif" widht=100 height=100>
   <p> Passando uma coordenada para buscar o parceiro mais próximo </p>
 </div>
 
