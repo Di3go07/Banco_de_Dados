@@ -65,10 +65,12 @@ O codigo se encontra [aqui](scripts/index.js). Já para visitar o site, basta ac
 **DEMONSTRAÇÃO** 
 
 <img src="./Imagens/IDs.gif">
-<p> Utilizando a função de achar parceiro pelo Id </p>
+<p align="center"> Utilizando a função de achar parceiro pelo Id </p>
+
+<br>
 
 <img src="./Imagens/Coordenadas.gif">
-<p> Passando uma coordenada para buscar o parceiro mais próximo </p>
+<p align="center"> Passando uma coordenada para buscar o parceiro mais próximo </p>
 
 ## 👨‍💻 Desenvolvedor
 
