@@ -69,7 +69,7 @@ O codigo se encontra [aqui](scripts/index.js). Já para visitar o site, basta ac
 **DEMONSTRAÇÃO** 
 
 <div align="center">
-  <img src="./Imagens/IDs.gif" widht=300 height=300>
+  <img src="./Imagens/IDs.gif" widht=800 height=800>
   <p align="center"> Utilizando a função de achar parceiro pelo Id </p>
 </div>
 <br>
