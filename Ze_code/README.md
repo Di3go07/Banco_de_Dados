@@ -67,15 +67,16 @@ Além disso, o arquivo js também incorpora a função responsável por ler as c
 O codigo se encontra [aqui](scripts/index.js). Já para visitar o site, basta acessar o [arquivo html](templates/home.html) e abri-lo em seu navegador. 
 
 **DEMONSTRAÇÃO** 
+<br>
 
 <div align="center">
-  <img src="./Imagens/IDs.gif" widht=650 height=650>
+  <img src="./Imagens/IDs.gif" widht=700 height=700>
   <p align="center"> Utilizando a função de achar parceiro pelo Id </p>
 </div>
 <br>
 
 <div align="center">
-  <img src="./Imagens/Coordenadas.gif">
+  <img src="./Imagens/Coordenadas.gif" widht=700 height=700>
   <p> Passando uma coordenada para buscar o parceiro mais próximo </p>
 </div>
 
