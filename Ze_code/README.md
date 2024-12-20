@@ -69,13 +69,13 @@ O codigo se encontra [aqui](scripts/index.js). Já para visitar o site, basta ac
 **DEMONSTRAÇÃO** 
 
 <div align="center">
-  <img src="./Imagens/IDs.gif">
+  <img src="./Imagens/IDs.gif" widht=300 height=300>
   <p align="center"> Utilizando a função de achar parceiro pelo Id </p>
 </div>
 <br>
 
 <div align="center">
-  <img src="./Imagens/Coordenadas.gif" widht=100 height=100>
+  <img src="./Imagens/Coordenadas.gif">
   <p> Passando uma coordenada para buscar o parceiro mais próximo </p>
 </div>
 
