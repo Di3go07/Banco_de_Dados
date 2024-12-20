@@ -62,6 +62,10 @@ Além disso, o arquivo js também incorpora a função responsável por ler as c
 
 O codigo se encontra [aqui](scripts/index.js). Já para visitar o site, basta acessar o [arquivo html](templates/home.html) e abri-lo em seu navegador. 
 
+<img src="./Imagens/IDs.gif">
+
+<img src="./Imagens/Coordenadas.gif">
+
 ## 👨‍💻 Desenvolvedor
 
 Diego Penna Andrade Barros <br>
