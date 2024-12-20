@@ -69,8 +69,10 @@ O codigo se encontra [aqui](scripts/index.js). Já para visitar o site, basta ac
 
 <br>
 
-<img src="./Imagens/Coordenadas.gif">
-<p align="center"> Passando uma coordenada para buscar o parceiro mais próximo </p>
+<div align="center">
+  <img src="./Imagens/Coordenadas.gif">
+  <p align="center"> Passando uma coordenada para buscar o parceiro mais próximo </p>
+</div>
 
 ## 👨‍💻 Desenvolvedor
 
