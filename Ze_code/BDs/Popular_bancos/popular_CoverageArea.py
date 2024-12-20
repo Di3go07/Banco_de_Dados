@@ -4,7 +4,7 @@ import numpy as np
 import json
 from io import StringIO
 
-data = pd.read_csv('/home/PDITA274/Documentos/SQL/Ze_code/pdvs.csv') #resgata o json com as informações para o banco de dados
+data = pd.read_csv('/home/PDITA274/Documentos/SQL/Ze_code/pdvs.csv') #resgata o csv com as informações para o banco de dados
 data = data.replace([np.nan, -np.inf], 0) #substitui os valores nulos por 0 para serem reconhecidos futuramente
 rows, columns = data.shape
 
