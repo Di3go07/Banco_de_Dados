@@ -14,11 +14,11 @@ O banco de dados do projeto tem como objetivo organizar em tabelas as informaç�
 **MODELO ENTIDADE RELACIONAMENTO**
 
 <br>
-<img src="Diagrama.jpg">
+<img src="./Imagens/Diagrama.jpg">
 <p align="center"> Diagrama que representa as relações entre as entidades no banco </p>
 
 <br>
-<img src="relacionamento.png">
+<img src="./Imagens/relacionamento.png">
 <p align="center"> Representação ER do projeto no formato das tabelas </p>
 <br>
 
