@@ -14,12 +14,16 @@ O banco de dados do projeto tem como objetivo organizar em tabelas as informaç�
 **MODELO ENTIDADE RELACIONAMENTO**
 
 <br>
-<img src="./Imagens/Diagrama.jpg">
-<p align="center"> Diagrama que representa as relações entre as entidades no banco </p>
+<div align="center">
+  <img src="./Imagens/Diagrama.jpg">
+  <p align="center"> Diagrama que representa as relações entre as entidades no banco </p>
+</div>
 
 <br>
-<img src="./Imagens/relacionamento.png">
-<p align="center"> Representação ER do projeto no formato das tabelas </p>
+<div align="center">
+  <img src="./Imagens/relacionamento.png">
+  <p align="center"> Representação ER do projeto no formato das tabelas </p>
+</div>
 <br>
 
 **TABELAS** <br>
@@ -64,14 +68,15 @@ O codigo se encontra [aqui](scripts/index.js). Já para visitar o site, basta ac
 
 **DEMONSTRAÇÃO** 
 
-<img src="./Imagens/IDs.gif">
-<p align="center"> Utilizando a função de achar parceiro pelo Id </p>
-
+<div align="center">
+  <img src="./Imagens/IDs.gif">
+  <p align="center"> Utilizando a função de achar parceiro pelo Id </p>
+</div>
 <br>
 
 <div align="center">
   <img src="./Imagens/Coordenadas.gif">
-  <p align="center"> Passando uma coordenada para buscar o parceiro mais próximo </p>
+  <p> Passando uma coordenada para buscar o parceiro mais próximo </p>
 </div>
 
 ## 👨‍💻 Desenvolvedor
