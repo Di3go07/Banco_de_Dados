@@ -81,6 +81,8 @@ O codigo se encontra [aqui](scripts/index.js). Já para visitar o site, basta ac
 </div>
 
 ## 👨‍💻 Desenvolvedor
+Responsável pela criação do projeto
 
-Diego Penna Andrade Barros <br>
-PDITA 274
+Diego - Programação e documentação
+
+Conheça mais acessando o GitHub do desenvolvedor aqui!
