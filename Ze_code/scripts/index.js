@@ -35,7 +35,7 @@ function minhaFuncao() {
         initMap(lista_coordenadas); // Passa as coordenadas para a função initMap
       })
       .catch(error => {
-        console.error("Erro ao obter coordenadas:", error);
+        alert("Erro ao obter coordenadas: digite números entre 0 e 50");
       });
 
     function initMap(partnerCoords) {
@@ -70,8 +70,6 @@ async function acharPartner() {
 
   const coord_partner = (document.getElementById('campo_id').value);
   const array_coords = coord_partner.split(","); //converte as coordenadas digitas em uma lista de posição x e y
-  console.log(array_coords)
-
   let achouParceiro = false;
 
   //itera sobre cada coordenada de usuario até achar uma onde o ponto está em uma CoverageArea
@@ -93,7 +91,7 @@ async function acharPartner() {
 
   //Após o fim do looping, verifica se achou um parceiro
   if (achouParceiro !== true) { //caso não esteja na área de um parcceiro
-    buscarProximo() //ativa a função que procura o parceiro mais próximo
+    buscarProximo(array_coords) //ativa a função que procura o parceiro mais próximo
   }
 
   //1° filtra as coordenadas de um parceiro
@@ -139,8 +137,39 @@ async function acharPartner() {
   }
 
 //3.5 Buscar o parceiro mais próximo do user caso o user não esteja em alguma CoverageArea 
-function buscarProximo(){
-  console.log('buscando...')
+async function buscarProximo(array_coords){
+    //entrar em contato com a API
+    const dados = await fetch("https://raw.githubusercontent.com/ab-inbev-ze-company/ze-code-challenges/refs/heads/master/files/pdvs.json");
+    const dados_formatados = await dados.json();
+
+    //ponto passado pelo usuário
+    const userPoint = array_coords 
+
+    //variáveis a serem atualizadas
+    let menor_distancia = Number.POSITIVE_INFINITY //menor distância
+    let id_maisProximo = 0  //id do parceiro mais proximo
+
+    //filtrar dados 
+    for (let id = 0; id < 51; id++)  { //itera sobre cada parceiro
+      const eixo_x = dados_formatados.pdvs[id]['address']['coordinates'][1]; //resgata ponto do endereço dele no plano
+      const eixo_y = dados_formatados.pdvs[id]['address']['coordinates'][0];
+      
+      const user_x = userPoint[0]
+      const user_y = userPoint[1]
+
+      //CALCULA DISTÂNCIA
+      let dAB = Math.sqrt(Math.pow(( user_x - eixo_x), 2) + Math.pow(( user_y - eixo_y), 2));
+      
+      if (dAB < menor_distancia)  { 
+        menor_distancia = dAB; //caso o valor obtida seja menor que o até então menor, ela é salva como a menor distância
+        id_maisProximo = id
+      }
+
+      criarMapa(id_maisProximo) //cria o mapa com a posição do parceiro mais próximo 
+      texto = `Você está mais próximo do nosso parceiro de id ${id_maisProximo}`
+      elementoParceiro(texto); //cria um 'p' avisando que achou o parceiro
+
+    }
 }
 
 //4° Cria um mapa com a coverage area do parceiro mais proximo
@@ -174,7 +203,6 @@ function criarMapa(id) {
 
     filtrarCords()
       .then(lista_coordenadas => {
-        console.log(lista_coordenadas); // Exibe a lista de coordenadas no console
         initMap(lista_coordenadas); // Passa as coordenadas para a função initMap
       })
       .catch(error => {
