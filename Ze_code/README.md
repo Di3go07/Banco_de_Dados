@@ -60,7 +60,7 @@ No SQL, o usuario pode executar alguns comandos para ter uma leitura melhor do b
 
 O site do Zé Code te permite escolher tanto entre adicionar o id de um parceiro e encontrar sua coverageArea no Google Maps quanto inserir um ponto em x e y para retornar aquele mais proximo de você.
 
-Na construção desse sistema do site foi necessário um arquivo javascript que interpreta as informações de coordenada de cada parceiro a partir do arquivo json com todas as informações. Após manipular esses dados, as informações, salvas em uma lista de dicionários, são lidas pela API do Google Maps para criar o poligono com sua localização geografica no mapa. 
+Na construção desse sistema do site foi necessário um arquivo javascript que interpreta as informações de coordenada de cada parceiro a partir do arquivo json com todas as informações. Após manipular esses dados, as coordenadas do parcceiro, salvas em uma lista de dicionários, são lidas pela API do Google Maps para criar um poligono com sua localização geografica no mapa. 
 
 <br>
 
@@ -70,13 +70,16 @@ Na construção desse sistema do site foi necessário um arquivo javascript que 
 </div>
 <br>
 
-Além disso, o arquivo js também incorpora a função responsável por ler as coordenadas do ponto no plano cartesiano que o usuário passou e buscar qual coverage area de algum parceiro o contém. Caso não esteja na área de atuação de algum deles, o programa retorna aquele no qual o endereço é o mais próximo do seu. 
+Além disso, o arquivo js também incorpora uma função responsável por ler coordenadas de um ponto no plano cartesiano passadas pelo usuário e buscar se ele está contido na coverage area de algum parceiro. Caso não esteja na área de atuação de algum deles, o programa retorna aquele no qual o endereço é o mais próximo do ponto passado pelo usuário. 
+
 <br>
 
 <div align="center">
   <img src="./Imagens/Coordenadas.gif" widht=700 height=700>
   <p> Passando uma coordenada para buscar o parceiro mais próximo </p>
 </div>
+
+<br>
 
 O codigo se encontra [aqui](scripts/index.js). Já para visitar o site, basta acessar o [arquivo html](templates/home.html) e abri-lo em seu navegador. 
 
