@@ -263,6 +263,5 @@ function elementoParceiro(mensagem) {
   // Seleciona o elemento <p> dentro do div com ID 'mensagem'
   const paragraph = document.querySelector('#mensagem p');
 
-  paragraph.
   paragraph.textContent = mensagem;
 }
