@@ -62,11 +62,6 @@ O site do Zé Code te permite escolher tanto entre adicionar o id de um parceiro
 
 Na construção desse sistema do site foi necessário um arquivo javascript que interpreta as informações de coordenada de cada parceiro a partir do arquivo json com todas as informações. Após manipular esses dados, as informações, salvas em uma lista de dicionários, são lidas pela API do Google Maps para criar o poligono com sua localização geografica no mapa. 
 
-Além disso, o arquivo js também incorpora a função responsável por ler as coordenadas do ponto no plano cartesiano que o usuário passou e buscar qual coverage area de algum parceiro o contém. Caso não esteja na área de atuação de algum deles, o programa retorna aquele no qual o endereço é o mais próximo do seu. 
-
-O codigo se encontra [aqui](scripts/index.js). Já para visitar o site, basta acessar o [arquivo html](templates/home.html) e abri-lo em seu navegador. 
-
-**DEMONSTRAÇÃO** 
 <br>
 
 <div align="center">
@@ -75,10 +70,15 @@ O codigo se encontra [aqui](scripts/index.js). Já para visitar o site, basta ac
 </div>
 <br>
 
+Além disso, o arquivo js também incorpora a função responsável por ler as coordenadas do ponto no plano cartesiano que o usuário passou e buscar qual coverage area de algum parceiro o contém. Caso não esteja na área de atuação de algum deles, o programa retorna aquele no qual o endereço é o mais próximo do seu. 
+<br>
+
 <div align="center">
   <img src="./Imagens/Coordenadas.gif" widht=700 height=700>
   <p> Passando uma coordenada para buscar o parceiro mais próximo </p>
 </div>
+
+O codigo se encontra [aqui](scripts/index.js). Já para visitar o site, basta acessar o [arquivo html](templates/home.html) e abri-lo em seu navegador. 
 
 ## 👨‍💻 Desenvolvedor
 Responsável pela criação do projeto
